@@ -6,7 +6,7 @@ $(document).ready(function() {
     });
 	
 	
-	$('#addy').click(function() {
+	$('p').click(function() {
 		$(this).toggle('bounce', {times:5}, 500);
 		
 		
