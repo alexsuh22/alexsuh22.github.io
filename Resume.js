@@ -1,21 +1,14 @@
 $(document).ready(function() {
-    $('#img').click(function() {
+	$("#img").click(function() {
 		$(this).toggle('explode');
-	    
-	    
-    });
-	
-	
-	$('p').click(function() {
-		$(this).toggle('bounce', {times:5}, 500);
-		
-		
-		
 	});
-	
-	
-	$('#lit').click(function() {
-		$(this).toggle('slide', {times:3}, 500);
+	$('p').click(function() {
+        $(this).effect("bounce", { times:3 }, 300);
+	 });
+	     $('li').click(function() {
+        $(this).effect('slide');
     });
-	
 });
+
+
+
