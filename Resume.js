@@ -1,7 +1,9 @@
 $(document).ready(function() {
     $('.right').click(function)) {
-		$(this).effect('explode');
-		
+		$(this).toggle('explode');
+	    
+	$('.right').click(function)) {
+		$(this).effect('bounce', {times: 4} 500);
 		
 		
 		
