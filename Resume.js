@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#img').click(function() {
-		$(this).toggle('explode');
+		$(this).effect('explode');
 	    
 	    
     });
