@@ -6,7 +6,7 @@ $(document).ready(function() {
     });
 	
 	
-	$('.right').click(function() {
+	$('h1').click(function() {
 		$(this).effect('bounce', {times:5}, 500);
 		
 		
