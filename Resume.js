@@ -14,7 +14,7 @@ $(document).ready(function() {
 	});
 	
 	
-	$('h4').click(function() {
+	$('#lit').click(function() {
 		$(this).toggle('slide', {times:3}, 500);
     });
 	
