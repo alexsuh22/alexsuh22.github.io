@@ -3,10 +3,10 @@ $(document).ready(function() {
 		$(this).toggle('explode');
 	});
 	$('p').click(function() {
-        $(this).effect("bounce", { times:3 }, 300);
+        $(this).toggle("bounce", { times:3 }, 300);
 	 });
 	     $('li').click(function() {
-        $(this).effect('slide');
+        $(this).toggle('slide');
     });
 });
 
