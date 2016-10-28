@@ -7,7 +7,7 @@ $(document).ready(function() {
 	
 	
 	$('.right').click(function() {
-		$(this).effect('bounce', {times: 4} 500);
+		$(this).effect('bounce', {times:5}, 500);
 		
 		
 		
