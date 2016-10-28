@@ -14,7 +14,7 @@ $(document).ready(function() {
 	});
 	
 	
-	$('#name').click(function() {
+	$('#addy').click(function() {
 		$(this).effect('slide', {times:3}, 500);
     });
 	
