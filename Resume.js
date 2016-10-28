@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.right').click(function)) {
+    $('img').click(function)) {
 		$(this).toggle('explode');
 	    
 	$('.right').click(function)) {
